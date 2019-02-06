@@ -110,7 +110,7 @@ header .main-nav li a.specialbtn {
 	text-transform:uppercase;
 	font-weight:600;
 	letter-spacing:2px;
-	block-size: 5px;
+	
 }
 header .main-nav li a.specialbtn:hover {
 	color:#FFF;
