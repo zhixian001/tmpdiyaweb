@@ -31,10 +31,13 @@ abbr, acronym {
 	border:0
 }
 ::selection {
-	color:#e00966;
+	/* color:#e00966; */
+	color:#606060
+	
 }
 ::-moz-selection {
-color:#e00966;
+/* color:#e00966; */
+color:#606060
 }
 body {
 	font-family:"Open Sans", sans-serif;
@@ -82,7 +85,7 @@ header {
 	margin-top:0;
 	width:100%;
 	height:45px;
-	margin-bottom:40px;
+	margin-bottom:30px;
 	background:#1D1D1D;
 	position:fixed;
 	z-index:999;
@@ -91,10 +94,24 @@ header .main-nav {
 	margin-top:10px;
 	float:right;
 }
+
+/* header logo */
+header .logo-area {
+	float: left;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
 header .main-nav li {
 	display:inline-block;
 	margin-right:40px;
 	list-style:none;
+
+
 }
 header .main-nav li a {
 	color:#FFF;
