@@ -349,11 +349,11 @@ footer .socialmediaicons li {
 	display: table-cell;
 	display: inline;
 	list-style: none;
-	margin-right: 0.3rem;
+	margin-right: 0.6rem;
 }
 
 footer .socialmediaicons li img {
-	width: 1.5rem;
+	width: 1.8rem;
 	height: auto;
 }
 
@@ -530,8 +530,24 @@ footer .socialmediaicons li img {
 		position: relative;
 	}
 	#home-head {
-		min-height: 15.625rem;
+		
+		min-height: 18.75rem;
+		/* padding-bottom: 1.25rem;
+		padding-top: 7.5rem; */
+		
 	}
+	#video h1{
+		padding-top: 9rem;
+		font-size: 3.5rem;
+		font-size: 3.5rem;
+	}
+
+	#home-head h1{
+		padding-bottom: 1.25rem;
+		padding-top: 9rem;
+		font-size: 3.5rem;
+	}
+	
 	header .main-nav {
 		width: 100%;
 		margin-left: 0;
@@ -600,10 +616,16 @@ footer .socialmediaicons li img {
 	}
 	.copyright {
 		text-align: center;
+		font-size: 0.8rem;
 	}
 	#main-content .text-intro h2 {
 		font-size: 30px;
 	}
 
+	footer .leftside {
+		float: none;
+		
+	
+	}
 	
 }
