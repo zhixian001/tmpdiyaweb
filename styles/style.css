@@ -315,10 +315,11 @@ footer {
 	clear: both;
 	border-top: 1px solid #e5e4e4;
 	padding: 1.25rem 0;
+	vertical-align: middle;
 }
 
 footer .copyright {
-	float: left;
+	float: right;
 	margin-bottom: 1.875rem;
 }
 
@@ -330,6 +331,32 @@ footer .copyright a {
 footer .copyright a:hover {
 	color: #e00966;
 }
+
+footer .leftside {
+	float: left;
+	
+
+}
+
+footer .socialmediaicons {
+
+}
+footer .socialmediaicons ul {
+	display: table;
+}
+
+footer .socialmediaicons li {
+	display: table-cell;
+	display: inline;
+	list-style: none;
+	margin-right: 0.3rem;
+}
+
+footer .socialmediaicons li img {
+	width: 1.5rem;
+	height: auto;
+}
+
 
 #home-head {
 	content: "";
