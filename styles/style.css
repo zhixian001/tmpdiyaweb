@@ -103,7 +103,6 @@ img {
 #main-content, footer {
 	margin: 0 auto;
 	max-width: 57rem;
-	
 }
 
 header {
@@ -140,7 +139,6 @@ header .logo-area img {
 	height: 50px;
 }
 
-
 header .main-nav ul {
 	height: 100%;
 	text-align: middle;
@@ -158,14 +156,11 @@ header .main-nav ul li {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 	text-align: center;
-	
 }
 
 header .main-nav ul #recruiting {
 	background-color: firebrick;
 }
-
-
 
 /* header .main-nav .icon-wrapper {
 	width: 100%;
@@ -240,14 +235,12 @@ header .main-nav li a:hover, header .main-nav li a.active {
 	height: 100%;
 }
 
-
-
 #main-content .text-intro {
 	border-bottom: 1px solid #e5e4e4;
 	float: left;
 	width: 100%;
 	padding: 1.8rem 0;
-	margin-bottom: 3rem;
+	margin-bottom: 1.7rem;
 }
 
 #main-content .text-intro h2 {
@@ -314,7 +307,55 @@ div.img-first:hover, div.img-second:hover {
 #main-content .features, #main-content .portfolio {
 	clear: both;
 	float: left;
-	margin-bottom: 3.125rem;
+	margin-bottom: 2.4rem;
+}
+
+.introh{
+	text-align: center;
+}
+
+button#apply-button{
+	background: firebrick;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 4rem;
+	font-size: 1.2rem;
+	padding: 0 2rem;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+	margin-top: 0.8rem;
+	width: 100%;
+	font-weight: 500;
+}
+
+button#apply-button:hover {
+	background: #fff;
+	color: firebrick;
+}
+
+button#apply-button:before, button#apply-button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: firebrick;
+	transition: 400ms ease all;
+}
+
+button#apply-button:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+
+button#apply-button:hover:before, button#apply-button:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
 }
 
 footer {
@@ -340,13 +381,10 @@ footer .copyright a:hover {
 
 footer .leftside {
 	float: left;
-	
-
 }
 
-footer .socialmediaicons {
+footer .socialmediaicons {}
 
-}
 footer .socialmediaicons ul {
 	display: table;
 }
@@ -362,7 +400,6 @@ footer .socialmediaicons li img {
 	width: 1.8rem;
 	height: auto;
 }
-
 
 #home-head {
 	content: "";
@@ -521,10 +558,7 @@ footer .socialmediaicons li img {
 		padding-right: 0px;
 		text-align: center;
 		line-height: auto;
-
-		
 	}
-
 }
 
 @media handheld and (max-width:765px), screen and (max-device-width:765px), screen and (max-width:765px) {
@@ -536,24 +570,20 @@ footer .socialmediaicons li img {
 		position: relative;
 	}
 	#home-head {
-		
 		min-height: 18.75rem;
 		/* padding-bottom: 1.25rem;
 		padding-top: 7.5rem; */
-		
 	}
-	#video h1{
+	#video h1 {
 		padding-top: 9rem;
 		font-size: 3.5rem;
 		font-size: 3.5rem;
 	}
-
-	#home-head h1{
+	#home-head h1 {
 		padding-bottom: 1.25rem;
 		padding-top: 9rem;
 		font-size: 3.5rem;
 	}
-	
 	header .main-nav {
 		width: 100%;
 		margin-left: 0;
@@ -577,7 +607,6 @@ footer .socialmediaicons li img {
 		display: block;
 		margin-bottom: 0px;
 	}
-
 	header .main-nav a.specialbtn {
 		background-color: firebrick;
 		color: #fff;
@@ -586,7 +615,6 @@ footer .socialmediaicons li img {
 		font-weight: 600;
 		letter-spacing: 0.15rem;
 	}
-	
 	header .main-nav li a.specialbtn:hover {
 		color: #FFF;
 		/* background-color: deepskyblue; */
@@ -595,7 +623,6 @@ footer .socialmediaicons li img {
 		font-weight: 600;
 		letter-spacing: 0.15rem;
 	}
-	
 	header .main-nav li a.specialbtn-active {
 		color: #fff;
 		background-color: firebrick;
@@ -604,13 +631,9 @@ footer .socialmediaicons li img {
 		font-weight: 600;
 		letter-spacing: 0.15rem;
 	}
-	
 	header .main-nav li a:hover, header .main-nav li a.active {
 		color: #666;
 	}
-
-
-	
 	div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth {
 		margin-left: 0;
 		width: 100%;
@@ -627,11 +650,7 @@ footer .socialmediaicons li img {
 	#main-content .text-intro h2 {
 		font-size: 30px;
 	}
-
 	footer .leftside {
 		float: none;
-		
-	
 	}
-	
 }
