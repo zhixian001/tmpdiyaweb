@@ -159,7 +159,7 @@ header .main-nav ul li {
 }
 
 header .main-nav ul #recruiting {
-	background-color: firebrick;
+	background-color: #353535;
 }
 
 /* header .main-nav .icon-wrapper {
@@ -190,7 +190,7 @@ header .main-nav .nav-icons {
 }
 
 header .main-nav a.specialbtn {
-	color: #fff;
+	color: #353535;
 	/* font-size: 10px; */
 	text-transform: uppercase;
 	font-weight: 600;
@@ -198,7 +198,7 @@ header .main-nav a.specialbtn {
 }
 
 header .main-nav li a.specialbtn:hover {
-	color: #FFF;
+	color: #353535;
 	/* background-color: deepskyblue; */
 	/* font-size: 10px; */
 	text-transform: uppercase;
@@ -207,7 +207,7 @@ header .main-nav li a.specialbtn:hover {
 }
 
 header .main-nav li a.specialbtn-active {
-	color: #fff;
+	color: #353535;
 	/* font-size: 10px; */
 	text-transform: uppercase;
 	font-weight: 600;
@@ -608,15 +608,17 @@ footer .socialmediaicons li img {
 		margin-bottom: 0px;
 	}
 	header .main-nav a.specialbtn {
-		background-color: firebrick;
-		color: #fff;
+		/* background-color: firebrick; */
+		background-color: #00000000;
+		color: #00000000;
 		/* font-size: 10px; */
 		text-transform: uppercase;
 		font-weight: 600;
 		letter-spacing: 0.15rem;
 	}
 	header .main-nav li a.specialbtn:hover {
-		color: #FFF;
+		background-color: #00000000;
+		color: #00000000;
 		/* background-color: deepskyblue; */
 		/* font-size: 10px; */
 		text-transform: uppercase;
@@ -625,7 +627,8 @@ footer .socialmediaicons li img {
 	}
 	header .main-nav li a.specialbtn-active {
 		color: #fff;
-		background-color: firebrick;
+		/* background-color: firebrick; */
+		background-color: #606060;
 		/* font-size: 10px; */
 		text-transform: uppercase;
 		font-weight: 600;
